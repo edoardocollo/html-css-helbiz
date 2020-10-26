@@ -13,6 +13,9 @@ h3 {
 a {
   text-decoration: none;
 }
+.relative {
+  position: relative;
+}
 .f_size_14 {
   font-size: 14px;
 }
@@ -191,9 +194,30 @@ video {
 
 /* banner */
 #banner > .container_fluid {
+  position: relative;
   height: 500px;
   background-color: lightgreen;
   background-image: none;
+}
+
+.tag {
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+.tag .center_tag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tag span {
+  display: block;
+  text-align: center;
 }
 /* /banner */
 
