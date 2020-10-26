@@ -30,6 +30,10 @@ body>.container>.row>[class*="col_"]>.row>[class*="col_"] {
 .container_fluid {
   width: 100%;
 }
+.container_small {
+  max-width: 1000px;
+  margin: auto;
+}
 .row {
   width: 100%;
 }
