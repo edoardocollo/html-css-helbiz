@@ -1,0 +1,201 @@
+/* UTILITY */
+
+/* /UTILITY */
+
+/* TIPOGRAPHY, MARGIN, PADDING AND ALING */
+h1 {
+  font-size: 3.5rem;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+.f_size_14 {
+  font-size: 14px;
+}
+.f_w_300 {
+  font-weight: 300;
+}
+.aling_c {
+  text-align: center;
+}
+.aling_r {
+  text-align: right;
+}
+.v_aling {
+  vertical-align: bottom;
+}
+.p_tb_20 {
+  padding: 20px 0;
+}
+.p_l_15 {
+  padding-left: 15px;
+}
+.p_r_15 {
+  padding-right: 15px;
+}
+.p_t_400 {
+  padding-top: 400px;
+}
+.m_l_30 {
+  margin-left: 30px;
+}
+.m_t_80 {
+  margin-top: 80px;
+}
+.m_b_30 {
+  margin-bottom: 30px;
+}
+
+/* TIPOGRAPHY, MARGIN, PADDING AND ALING */
+
+
+/* COLOUR */
+.text_w {
+  color: white;
+}
+/* /COLOUR */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER SECTION */
+header {
+  position: relative;
+  width: 100%;
+}
+nav {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+.video_container {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+video {
+  width: 100%;
+}
+
+/* main nav */
+#main_nav {
+  text-transform: uppercase;
+}
+#main_nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+#main_nav ul li a{
+  color: white;
+  padding: 0 10px;
+}
+#main_nav .container .row .col_2_lg:last-child ul li:not(:last-child) a {
+  border-right: 1px solid white;
+}
+/* /main nav */
+
+/* jumbotron */
+#jumbotron_text_box {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#jumbotron_text_box img {
+  height: 60px;
+}
+#jumbotron_text_box p {
+  font-weight: bold;
+}
+/* /jumbotron */
+/* /HEADER SECTION */
+
+/* MAIN SECTION */
+
+/* veicle */
+.card {
+  padding: 80px 10px 20px;
+  text-align: center;
+  background-color: #FAFAFA;
+}
+.card img {
+  height: 280px;
+}
+.card p {
+  font-size: 1.25rem;
+  margin: 40px 0;
+}
+.card a {
+  display: block;
+  color: #0070cc;
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+}
+/* /veicle */
+
+/* how work */
+#main_content .container_fluid {
+  height: 500px;
+  background-image: url("https://helbiz.com/_nuxt/img/index-banner.1f6fd0a.jpg");
+  background-size: contain;
+}
+.container_fluid img {
+  width: 250px;
+  margin: auto;
+}
+.container_fluid .container .row {
+  padding-top: 160px;
+}
+/* /how work */
+
+/* smart app around */
+#smart_app_around_section .container .row .col_12_lg {
+  height: 500px;
+  background-image: url("https://helbiz.com/_nuxt/img/scooter.f0a0397.jpg");
+}
+.app {
+  height: 800px;
+  background-color: #2e3c49;
+  background-image: url("https://helbiz.com/_nuxt/img/iphone-bg.2dae1bd.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.around {
+  height: 800px;
+  background-image: url("https://helbiz.com/_nuxt/img/city.7c8c928.jpg");
+  background-size: cover;
+}
+/* /smart app around */
+
+/* banner */
+#banner > .container_fluid {
+  height: 500px;
+  background-color: lightgreen;
+  background-image: none;
+}
+/* /banner */
+
+/* /MAIN SECTION */
+
+/* FOOTER SECTION */
+footer {
+  height: 700px;
+  background-color: black;
+}
+/* /FOOTER SECTION */
