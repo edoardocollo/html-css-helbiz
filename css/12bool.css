@@ -131,7 +131,10 @@ body>.container>.row>[class*="col_"]>.row>[class*="col_"] {
 
 /* 768px VIEW */
 @media all and (min-width: 420px) and (max-width: 768px) {
-
+  .container_md {
+    width: 100%;
+    padding: 30px 30px;
+  }
   /* COLONNE */
   .col_1_md {
     width: calc((100%/12)*1);

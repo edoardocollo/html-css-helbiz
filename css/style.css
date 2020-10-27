@@ -214,3 +214,63 @@ footer ul li:first-child a {
 footer .footer_logo {
   text-align: center;
 }
+
+
+/* MEDIA QUERY */
+
+@media all and (max-width: 1500px){
+  .row_background {
+    height: 400px;
+    background-image: url('../img/sfondo.jpg');
+    background-size: cover;
+  }
+  .how_work .col_4_lg {
+    height: 700px;
+  }
+  .container.cell img {
+    width: 280px
+  }
+}
+@media all and (max-width: 1200px){
+  .row_background {
+    height: 300px;
+    background-image: url('../img/sfondo.jpg');
+    background-size: cover;
+  }
+  .how_work .col_4_lg {
+    height: 600px;
+  }
+  .container.cell img {
+    width: 250px
+  }
+
+}
+@media all and (max-width: 1200px){
+
+  .pl_15_md {
+    padding-left: 15px;
+  }
+  .pr_15_md {
+    padding-right: 15px;
+  }
+  .container_header ul li a {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  p {
+    font-size: 1rem
+  }
+  .container_smart_text h2 {
+    font-size: 2rem;
+  }
+  .container_smart_text p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
